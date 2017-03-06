@@ -1,0 +1,8 @@
+
+token_test.default_controller_hello:
+  path: '/token_test/hello'
+  defaults:
+    _controller: '\Drupal\token_test\Controller\DefaultController::hello'
+    _title: 'Test'
+  requirements:
+    _permission: 'access content'
